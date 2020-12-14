@@ -182,9 +182,51 @@
 
 <div class="container">
     <div class="left-column">
-        <p class="lead"> A fun project to learn quarkus framework.</p>
-        <h2>Do you like FuzzyQuarkus?</h2>
-        <p>Go give it a star on <a href="https://github.com/guleri24/FuzzyQuarkus.git">GitHub</a>.</p>
+        <p class="lead"> A fun project to learn quarkus framework and find the answer of the ultimate question:
+            <b>are super heroes stronger than super villains?</b></p>
+        <h2>Why project named FuzzyQuarkus?</h2>
+        <p>Just for fun.</p>
+        <h1>Quarkus: Supersonic Subatomic Java</h1>
+        <p>Quarkus is "A Kubernetes Native Java stack tailored for OpenJDK HotSpot & GraalVM, crafted from the best of
+            breed Java libraries and standards".
+            In practice, Quarkus is an Open Source stack to write Java application, specially backend application.<br>
+            The memory footprint of the application build on Quarkus is very low.
+
+            <br>Requirements:
+        <ul>
+            <li> Any IDE you feel comfortable</li>
+            <li> JDK 8+</li>
+            <li> GraalVM 19.2.1 or 19.3.1</li>
+            <li> Apache Maven (3.6+)</li>
+            <li> Docker</li>
+            <li> cURL (or any other command line HTTP client)</li>
+            <li> Node JS (optional, only if you are in a frontend mood)</li>
+            <li> most important your laptop and internet connection :)</li>
+        </ul>
+
+        <br>
+        In this project I'm going to develop an application dealing with Super Heroes (and Super Villains).
+        For more info: <a href="https://quarkus.io/quarkus-workshops/super-heroes/#rest"> Original Project by Quarkus
+        Team.</a>
+        </p>
+
+        <h1> Creating a REST/HTTP Microservice</h1>
+        <p>
+            At the heart of the Super Hero application comes Heroes. We need to expose a REST API
+            allowing CRUD operation on Super Heroes. This microservice uses HTTP to expose a REST API
+            and internally store data into a database. This service will be used by the fight microservice.
+
+            In the following section, I learn:
+        <ul>
+            <li> how to create a new Quarkus application</li>
+            <li> how to implement REST API using JAX-RS</li>
+            <li> how to compose my application using CDI beans</li>
+            <li> how to access mu database using Hibernate with Panache</li>
+            <li> how to use transactions</li>
+            <li> how to enable OpenAPI and Swagger-UI</li>
+
+        </ul>
+        </p>
     </div>
     <div class="right-column">
         <div class="right-section">
